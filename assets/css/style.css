@@ -11937,7 +11937,11 @@ textarea.form-control-lg {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 1.8rem;
+}
+@media (min-width: 992px) {
+  .display-3--title {
+    font-size: 1.8rem;
+  }
 }
 
 .heading-line::before {
@@ -12034,16 +12038,28 @@ textarea.form-control-lg {
 .services__content {
   padding: 1rem;
   margin-top: 0;
-  margin-top: 5rem;
 }
 .services__content p {
   font-size: 0.8rem;
-  font-size: 1rem;
+}
+@media (min-width: 992px) {
+  .services__content p {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 992px) {
+  .services__content {
+    margin-top: 5rem;
+  }
 }
 .services__content .icon {
   font-size: 1.5rem;
   color: #9956F0;
-  font-size: 2.5rem;
+}
+@media (min-width: 992px) {
+  .services__content .icon {
+    font-size: 2.5rem;
+  }
 }
 .services__pic {
   max-width: 100%;
